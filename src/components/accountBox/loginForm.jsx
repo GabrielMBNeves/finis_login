@@ -22,14 +22,14 @@ export function LoginForm(props) {
         <Input type="password" placeholder="Password" />
       </FormContainer>
       <Marginer direction="vertical" margin={10} />
-      <MutedLink href="#">Forget your password?</MutedLink>
+      <MutedLink href="#">Esqueceu sua senha?</MutedLink>
       <Marginer direction="vertical" margin="1.6em" />
-      <SubmitButton type="submit">Signin</SubmitButton>
+      <SubmitButton type="submit">Entrar</SubmitButton>
       <Marginer direction="vertical" margin="5px" />
       <LineText>
-        Don't have an accoun?{" "}
+        Não tem uma conta?{" "}
         <BoldLink onClick={switchToSignup} href="#">
-          Signup
+          Registrar-se
         </BoldLink>
       </LineText>
     </BoxContainer>
