@@ -19,7 +19,7 @@ export function LoginForm(props) {
     <BoxContainer>
       <FormContainer>
         <Input type="email" placeholder="Email" />
-        <Input type="password" placeholder="Password" />
+        <Input type="password" placeholder="Senha" />
       </FormContainer>
       <Marginer direction="vertical" margin={10} />
       <MutedLink href="#">Esqueceu sua senha?</MutedLink>
