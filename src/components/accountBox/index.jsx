@@ -131,7 +131,7 @@ export default function AccountBox(props) {
       />
       {active === "signin" && <HeaderContainer>
         <HeaderText>Bem-Vindo</HeaderText>
-        <HeaderText>De volta</HeaderText>
+        <HeaderText>De volta!</HeaderText>
         <SmallText>Por favor faça log-in para continuar!</SmallText>
       </HeaderContainer>}
       {active === "signup" && <HeaderContainer>
