@@ -130,14 +130,14 @@ export default function AccountBox(props) {
         transition={expandingTransition}
       />
       {active === "signin" && <HeaderContainer>
-        <HeaderText>Welcome</HeaderText>
-        <HeaderText>Back</HeaderText>
-        <SmallText>Please sign-in to continue!</SmallText>
+        <HeaderText>Bem-Vindo</HeaderText>
+        <HeaderText>De volta</HeaderText>
+        <SmallText>Por favor faça log-in para continuar!</SmallText>
       </HeaderContainer>}
       {active === "signup" && <HeaderContainer>
-        <HeaderText>Create</HeaderText>
-        <HeaderText>Account</HeaderText>
-        <SmallText>Please sign-up to continue!</SmallText>
+        <HeaderText>Crie</HeaderText>
+        <HeaderText>Sua conta</HeaderText>
+        <SmallText>Por favor crie sua conta para continuar!</SmallText>
       </HeaderContainer>}
     </TopContainer>
     <InnerContainer>
